@@ -1,0 +1,39 @@
+{
+  "name": "support",
+  "description": "",
+  "type": "plugin",
+  "license": "GPL-3.0+",
+  "authors": [
+    {
+      "name": "AAA",
+      "email": "1543394063@msn.com",
+      "homepage": "http://example.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "1543394063@msn.com"
+  },
+  "config": {
+    "platform": {
+      "php": "5.6"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "app\\abstracts\\": "app/abstracts/",
+      "app\\backend\\": "app/backend/",
+      "app\\common\\": "app/common/",
+      "app\\frontend\\": "app/frontend/"
+    },
+    "files": [
+      "app/common/functions.php"
+    ]
+  },
+  "require": {
+
+  },
+  "require-dev": {
+
+  }
+}
